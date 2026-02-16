@@ -47,8 +47,7 @@
 
 - Luego le dimos uso al algoritmo "BFS" implementandolo a traves de una cola para verificar los nodos en el orden correcto y un mapa de distancias para almacenar distancias desde el nodo de origen Nombre1 hasta el nodo destino Nombre2
 
-- Mantuve la implementación en varios archivos:
+- Mantuve la implementación en varios archivos para reutilizar lo que se trabajó en el proyecto anterior
     - DegreesOfSeparation.kt
     - Grafo.kt
     - ListaAdyacenciaGrafo.kt
-- Para reutilizar lo que se trabajó en el proyecto anterior
