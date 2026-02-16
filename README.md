@@ -13,9 +13,11 @@
         - cd ubicacion/de/tu/entorno
 3. Crea un archivo "input.txt":
     - Este archivo debe contener por cada una de sus lineas, pares de nombres separados por un espacio " ". Un ejemplo podria ser el siguiente:
+        ```
         Alejandro Gabriel
         Gabriel Jesus
         Daniel Juan
+        ```
     - Puedes expandirlo la cantidad de lineas que quieras siempre y cuando se cumpla que por linea, sean exactamente 2 nombres.
 4. Compila todos los archivos .kt que estan en este repositorio:
     - Desde tu terminal de WSL ejecuta el siguiente comando:
