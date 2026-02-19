@@ -39,18 +39,17 @@ fun almacenarTxtGrafo(): ListaAdyacenciaGrafo<String>? { // Para leer el .txt
 
 fun bfs(grafo: ListaAdyacenciaGrafo<String>, origen: String, destino: String): Int { // Calcula la distancia mínima entre dos vértices
 
-    // Si ambas son la misma persona
-    if (origen == destino) {
-        return 0
-    }
-
     // Si no existe conexión entre ambas personas
     if (!grafo.contiene(origen) || !grafo.contiene(destino)) {
         return -1
     }
 
+        // Si ambas son la misma persona
+    if (origen == destino) {
+        return 0
+    }
     
-    val distancia = mutableMapOf<String, Int>()
+    val distancia = mutableMapOf<String, Int>() //
     val cola = ArrayDeque<String>() // Cola para almacenar nodos por visitar
 
     distancia[origen] = 0 
