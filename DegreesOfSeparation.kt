@@ -44,7 +44,7 @@ fun bfs(grafo: ListaAdyacenciaGrafo<String>, origen: String, destino: String): I
         return -1
     }
 
-        // Si ambas son la misma persona
+    // Si ambas son la misma persona
     if (origen == destino) {
         return 0
     }
